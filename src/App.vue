@@ -13,6 +13,7 @@ import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Console from './components/Console.vue'
 import Social from './components/Social.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import Social from './components/Social.vue'
   <Projects />
   <Console />
   <Social />
+  <Footer />
 </template>
 
 <style>

@@ -19,23 +19,23 @@ const twitterUrl: string = new URL("../../public/twitter.svg", import.meta.url).
         <span>
             <div class="account deviantart">
                 <img :src="deviantArtUrl" alt="deviantArt">
-                <a href="https://www.deviantart.com/aiocat">Aiocat</a>
+                <a target="_blank" href="https://www.deviantart.com/aiocat">aiocat</a>
             </div>
             <div class="account discord">
                 <img :src="discordUrl" alt="discord">
-                <a href="https://discord.com/users/872202276297637928">sec</a>
+                <a target="_blank" href="https://discord.com/users/872202276297637928">sec</a>
             </div>
             <div class="account github">
                 <img :src="githubUrl" alt="github">
-                <a href="https://github.com/aiocat">0x707</a>
+                <a target="_blank" href="https://github.com/aiocat">0x707</a>
             </div>
             <div class="account osu">
                 <img :src="osuUrl" alt="osu">
-                <a href="https://osu.ppy.sh/users/28439842">111sec</a>
+                <a target="_blank" href="https://osu.ppy.sh/users/28439842">111sec</a>
             </div>
             <div class="account twitter">
                 <img :src="twitterUrl" alt="twitter">
-                <a href="https://twitter.com/aiocat420">aiocat420</a>
+                <a target="_blank" href="https://twitter.com/aiocat420">aiocat420</a>
             </div>
         </span>
     </div>
@@ -103,5 +103,14 @@ span {
 }
 .twitter:hover > img, .twitter:hover > a { 
     filter: invert(57%) sepia(28%) saturate(7158%) hue-rotate(178deg) brightness(102%) contrast(90%);
+}
+.github:hover > img, .github:hover > a { 
+    filter: none;
+    color: #181717;
+}
+
+.github:hover {
+    background: #fff;
+    border-color: #ddd;
 }
 </style>

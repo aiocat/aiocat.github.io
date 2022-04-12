@@ -126,4 +126,10 @@ h1 {
     font-weight: 500;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 800px) {
+    #shell {
+        width: 80%;
+    }
+}
 </style>
