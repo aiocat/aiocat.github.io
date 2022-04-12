@@ -9,14 +9,18 @@
 
 <script setup lang="ts">
 import Navbar from './components/Navbar.vue'
+import About from './components/About.vue'
 </script>
 
 <template>
   <Navbar />
+  <About />
 </template>
 
 <style>
-html, body, #app {
+html,
+body,
+#app {
   margin: 0 auto;
   font-family: 'Nunito', sans-serif;
   background-color: #030303;

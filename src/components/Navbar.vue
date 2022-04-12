@@ -6,16 +6,16 @@
 -->
 
 <template>
-  <div>
-    <h1>0x707</h1>
-    <span>
-        <a href="https://github.com/aiocat/aiocat.github.io">GitHub</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#console">Console</a>
-        <a href="#social">Social</a>
-    </span>
-  </div>
+    <div>
+        <h1>0x707</h1>
+        <span>
+            <a href="https://github.com/aiocat/aiocat.github.io">GitHub</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#console">Console</a>
+            <a href="#social">Social</a>
+        </span>
+    </div>
 </template>
 
 <style scoped>
@@ -29,6 +29,18 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 0px auto;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.904) 0px 3px 8px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -42,10 +54,10 @@ a {
     color: #ddd;
     font-size: 20px;
     font-weight: 600;
-    margin: 0px 10px 0px 10px;
     text-decoration: none;
 
     transition: 200ms;
+    margin: 0px 10px 0px 10px;
 }
 
 a:hover {
