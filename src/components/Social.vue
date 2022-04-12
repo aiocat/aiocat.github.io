@@ -6,11 +6,6 @@
 -->
 
 <script setup lang="ts">
-const deviantArtUrl: string = new URL("../assets/deviantart.svg", import.meta.url).href
-const discordUrl: string = new URL("../assets/discord.svg", import.meta.url).href
-const githubUrl: string = new URL("../assets/github.svg", import.meta.url).href
-const osuUrl: string = new URL("../assets/osu.svg", import.meta.url).href
-const twitterUrl: string = new URL("../assets/twitter.svg", import.meta.url).href
 </script>
 
 <template>
@@ -18,23 +13,23 @@ const twitterUrl: string = new URL("../assets/twitter.svg", import.meta.url).hre
         <h1>Social</h1>
         <span>
             <div class="account deviantart">
-                <img :src="deviantArtUrl" alt="deviantArt">
+                <img src="/deviantart.svg" alt="deviantArt">
                 <a target="_blank" href="https://www.deviantart.com/aiocat">aiocat</a>
             </div>
             <div class="account discord">
-                <img :src="discordUrl" alt="discord">
+                <img src="/discord.svg" alt="discord">
                 <a target="_blank" href="https://discord.com/users/872202276297637928">sec</a>
             </div>
             <div class="account github">
-                <img :src="githubUrl" alt="github">
+                <img src="/github.svg" alt="github">
                 <a target="_blank" href="https://github.com/aiocat">0x707</a>
             </div>
             <div class="account osu">
-                <img :src="osuUrl" alt="osu">
+                <img src="/osu.svg" alt="osu">
                 <a target="_blank" href="https://osu.ppy.sh/users/28439842">111sec</a>
             </div>
             <div class="account twitter">
-                <img :src="twitterUrl" alt="twitter">
+                <img src="/twitter.svg" alt="twitter">
                 <a target="_blank" href="https://twitter.com/aiocat420">aiocat420</a>
             </div>
         </span>

@@ -5,10 +5,6 @@
  https://opensource.org/licenses/MIT
 -->
 
-<script setup lang="ts">
-const imageUrl: string = new URL("../assets/pfp.png", import.meta.url).href
-</script>
-
 <template>
     <div id="about">
         <span class="profile">
@@ -18,7 +14,7 @@ const imageUrl: string = new URL("../assets/pfp.png", import.meta.url).href
                 of them <span>except php</span>. I mostly code to solve my problems.</p>
         </span>
         <span class="photo">
-            <img :src="imageUrl" alt="pfp">
+            <img src="/pfp.png" alt="pfp">
             <p>(I love GitHub's default avatar)</p>
         </span>
     </div>
