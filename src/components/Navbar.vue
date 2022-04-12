@@ -33,7 +33,7 @@ div {
 
     margin: 0px auto;
     margin-bottom: 50px;
-    box-shadow: rgba(0, 0, 0, 0.904) 0px 3px 8px;
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
 }
 
 span {

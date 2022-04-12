@@ -5,26 +5,12 @@
  https://opensource.org/licenses/MIT
 -->
 
-<!--
- Copyright (c) 2022 aiocat
- 
- This software is released under the MIT License.
- https://opensource.org/licenses/MIT
--->
-
-<!--
- Copyright (c) 2022 aiocat
- 
- This software is released under the MIT License.
- https://opensource.org/licenses/MIT
--->
-
 <script setup lang="ts">
 import ProjectCard from './ProjectCard.vue'
 </script>
 
 <template>
-    <div>
+    <div id="projects">
         <h1>Projects</h1>
         <div class="list">
             <ProjectCard title="This" desc="This website!" repo="aiocat.github.io" prog="Vue" />

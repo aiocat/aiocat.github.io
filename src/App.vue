@@ -11,12 +11,14 @@
 import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
+import Console from './components/Console.vue'
 </script>
 
 <template>
   <Navbar />
   <About />
   <Projects />
+  <Console />
 </template>
 
 <style>
