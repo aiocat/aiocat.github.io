@@ -6,7 +6,7 @@
 -->
 
 <script setup lang="ts">
-const imageUrl: string = new URL("../../public/pfp.png", import.meta.url).href
+const imageUrl: string = new URL("../assets/pfp.png", import.meta.url).href
 </script>
 
 <template>

@@ -6,11 +6,11 @@
 -->
 
 <script setup lang="ts">
-const deviantArtUrl: string = new URL("../../public/deviantart.svg", import.meta.url).href
-const discordUrl: string = new URL("../../public/discord.svg", import.meta.url).href
-const githubUrl: string = new URL("../../public/github.svg", import.meta.url).href
-const osuUrl: string = new URL("../../public/osu.svg", import.meta.url).href
-const twitterUrl: string = new URL("../../public/twitter.svg", import.meta.url).href
+const deviantArtUrl: string = new URL("../assets/deviantart.svg", import.meta.url).href
+const discordUrl: string = new URL("../assets/discord.svg", import.meta.url).href
+const githubUrl: string = new URL("../assets/github.svg", import.meta.url).href
+const osuUrl: string = new URL("../assets/osu.svg", import.meta.url).href
+const twitterUrl: string = new URL("../assets/twitter.svg", import.meta.url).href
 </script>
 
 <template>
@@ -82,6 +82,7 @@ span {
     margin: 5px;
     filter: invert(99%) sepia(3%) saturate(150%) hue-rotate(244deg) brightness(116%) contrast(100%);
 }
+
 .account a {
     color: #fff;
     font-size: 24px;
@@ -101,9 +102,11 @@ span {
 .osu:hover > img, .osu:hover > a { 
     filter: invert(57%) sepia(46%) saturate(1719%) hue-rotate(298deg) brightness(101%) contrast(101%);
 }
+
 .twitter:hover > img, .twitter:hover > a { 
     filter: invert(57%) sepia(28%) saturate(7158%) hue-rotate(178deg) brightness(102%) contrast(90%);
 }
+
 .github:hover > img, .github:hover > a { 
     filter: none;
     color: #181717;
