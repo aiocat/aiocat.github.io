@@ -5,13 +5,6 @@
  https://opensource.org/licenses/MIT
 -->
 
-<!--
- Copyright (c) 2022 aiocat
- 
- This software is released under the MIT License.
- https://opensource.org/licenses/MIT
--->
-
 <script setup lang="ts">
 const imageUrl: string = new URL("../../public/pfp.png", import.meta.url).href
 </script>

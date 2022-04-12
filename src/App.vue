@@ -12,6 +12,7 @@ import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Console from './components/Console.vue'
+import Social from './components/Social.vue'
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Console from './components/Console.vue'
   <About />
   <Projects />
   <Console />
+  <Social />
 </template>
 
 <style>
@@ -30,5 +32,6 @@ body,
   background-color: #030303;
   padding: 5px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 </style>

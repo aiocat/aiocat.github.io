@@ -42,7 +42,6 @@ export default {
     border-radius: 10px;
     text-align: left;
     padding: 10px;
-    align-items: center;
     box-shadow: rgb(0, 0, 0) 0px 3px 8px;
 
     transition: 200ms;

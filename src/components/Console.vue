@@ -25,6 +25,9 @@ function executeShell(): void {
         case "about":
             window.location.href = "#about";
             break;
+        case "social":
+            window.location.href = "#social";
+            break;
         case "echo":
             if (splitted.length < 2) {
                 stdout.value = "error: need one more parameter to run echo";
