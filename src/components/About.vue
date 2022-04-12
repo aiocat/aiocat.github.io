@@ -34,13 +34,12 @@ const imageUrl: string = new URL("../../public/pfp.png", import.meta.url).href
 <style scoped>
 div {
     width: 100%;
-    padding: 10px;
+    padding: 50px;
     box-sizing: border-box;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
 
     margin: 0px auto;
 }
