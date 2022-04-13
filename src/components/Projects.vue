@@ -13,17 +13,18 @@ import ProjectCard from './ProjectCard.vue'
     <div id="projects">
         <h1>Projects</h1>
         <div class="list">
-            <ProjectCard title="This" desc="This website!" repo="aiocat.github.io" prog="Vue" />
-            <ProjectCard title="Virna" desc="A programming language designed to be stack-based and concatenative with reverse polish notation" repo="virna" prog="Cpp" />
-            <ProjectCard title="Request" desc="Minimal HTTP client with web interface" repo="request" prog="TS" />
-            <ProjectCard title="GcWin" desc="Global command manager for Windows" repo="gcwin" prog="Cpp" />
-            <ProjectCard title="Webcord" desc="Chrome extension to use themes in discord web" repo="webcord" prog="JS" />
-            <ProjectCard title="Args" desc="Anonymous argument sharing and advocacy platform" repo="args" prog="Go" />
-            <ProjectCard title="Axis" desc="CLI tool for find text from files" repo="axis" prog="Rust" />
-            <ProjectCard title="Doomake" desc="Makefile clone less than 50 line" repo="doomak" prog="C" />
-            <ProjectCard title="Solute" desc="Github-like avatar creator library" repo="solute" prog="Rust" />
-            <ProjectCard title="Pixasso" desc="Reddit place like website written in one day" repo="pixasso" prog="Go" />
-            <ProjectCard title="JDW" desc="Dynamic windows library for vanilla-js" repo="jdw" prog="JS" />
+            <ProjectCard mark="gold" title="This" desc="This website!" repo="aiocat.github.io" prog="Vue" />
+            
+            <ProjectCard mark="" title="Doomake" desc="Makefile clone less than 50 line" repo="doomak" prog="C" />
+            <ProjectCard mark="" title="GcWin" desc="Global command manager for Windows" repo="gcwin" prog="Cpp" />
+            <ProjectCard mark="gold" title="Virna" desc="A programming language designed to be stack-based and concatenative with reverse polish notation" repo="virna" prog="Cpp" />
+            <ProjectCard mark="" title="Args" desc="Anonymous argument sharing and advocacy platform" repo="args" prog="Go" />
+            <ProjectCard mark="" title="Pixasso" desc="Reddit place like website written in one day" repo="pixasso" prog="Go" />
+            <ProjectCard mark="" title="Webcord" desc="Chrome extension to use themes in discord web" repo="webcord" prog="JS" />
+            <ProjectCard mark="" title="JDW" desc="Dynamic windows library for vanilla-js" repo="jdw" prog="JS" />
+            <ProjectCard mark="" title="Axis" desc="CLI tool for find text from files" repo="axis" prog="Rust" />
+            <ProjectCard mark="" title="Solute" desc="Github-like avatar creator library" repo="solute" prog="Rust" />
+            <ProjectCard mark="gold" title="Request" desc="Minimal HTTP client with web interface" repo="request" prog="TS" />
         </div>
     </div>
 </template>

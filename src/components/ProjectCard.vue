@@ -11,25 +11,29 @@ defineProps<{
     desc: string,
     repo: string,
     prog: string,
+    mark: string
 }>();
 </script>
 
 <script lang="ts">
 export default {
-    props: ["repo", "title", "desc", "prog"]
+    props: ["repo", "title", "desc", "prog", "mark"]
 }
 </script>
 
 <template>
-    <div class="card">
+    <div :class="['card', mark]">
         <span>
             <a :href="`https://github.com/aiocat/${repo}`">{{ title }}</a>
-            <span class="mark">
+            <span class="tag">
                 <p>{{ prog }}</p>
                 <div :class="['round', prog]"></div>
             </span>
         </span>
-        <p>{{ desc }}</p>
+        <span>
+            <p>{{ desc }}</p>
+            <img v-if="mark === 'gold'" src="star.svg" alt="star" class="star">
+        </span>
     </div>
 </template>
 
@@ -51,15 +55,40 @@ export default {
     background: #111;
 }
 
-.card:hover .mark {
+.card:hover .tag {
     background: #222;
 }
 
-.mark {
+.star {
+    display: inline-block;
+    width: 18px;
+    margin: 5px;
+    animation: action 2s infinite ease-in-out alternate;
+}
+
+.gold {
+    background: #1a1307;
+    border: 4px solid rgb(255, 219, 60);
+    box-shadow: rgba(255, 195, 31, 0.185) 0px 3px 8px;
+}
+
+.tag {
     background: #1a1a1a;
     padding: 2px 6px 2px 6px;
     border-radius: 10px;
     transition: 200ms;
+}
+
+.gold .tag {
+    background: #2b210f;
+}
+
+.gold:hover {
+    background: #20190c;
+    border: 4px solid rgb(255, 229, 116);
+}
+.gold:hover .tag {
+    background: rgb(63, 51, 31);
 }
 
 .round {
@@ -75,7 +104,6 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 0px;
 }
 
@@ -91,6 +119,15 @@ a {
 
 a:hover {
     color: #fff;
+}
+
+a::after {
+    content: "(click)";
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+
+    color: #888;
 }
 
 p {
@@ -126,5 +163,14 @@ p {
 
 .Vue {
     background: #41b883;
+}
+
+@keyframes action {
+    0% { 
+        transform: translateY(0px) rotate(20deg);
+    }
+    100% { 
+        transform: translateY(5px) rotate(-20deg); 
+    }
 }
 </style>
