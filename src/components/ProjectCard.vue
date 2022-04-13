@@ -32,7 +32,7 @@ export default {
         </span>
         <span>
             <p>{{ desc }}</p>
-            <img v-if="mark === 'gold'" src="star.svg" alt="star" class="star">
+            <p v-if="mark === 'gold'" class="star">⭐️</p>
         </span>
     </div>
 </template>
@@ -61,7 +61,7 @@ export default {
 
 .star {
     display: inline-block;
-    width: 18px;
+    font-size: 20px;
     margin: 5px;
     animation: action 2s infinite ease-in-out alternate;
 }

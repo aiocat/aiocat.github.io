@@ -12,6 +12,7 @@
             <h2>(0x707)</h2>
             <p>I'm a software engineer with over 3+ years of experience from Turkey. I don't have a tech stack, I 🤗 all
                 of them <span>except php</span>. I mostly code to solve my problems.</p>
+            <a href="mailto:aiocat@protonmail.com">Contact</a>
         </span>
         <span class="photo">
             <img src="/pfp.png" alt="pfp">
@@ -85,9 +86,37 @@ div {
     text-align: center;
 }
 
+.profile a {
+    background-color: #111;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    
+    text-decoration: none;
+
+    display: inline-block;
+    margin: 0px;
+    margin-top: 10px;
+
+    transition: 200ms;
+}
+
+.profile a:hover {
+    background-color: #222;
+}
+
 @media only screen and (max-width: 800px) {
     div {
         flex-wrap: wrap-reverse;
+        padding: 10px;
+        text-align: center;
+    }
+    .profile,
+    .photo {
+        margin: 20px;
     }
 }
 </style>
