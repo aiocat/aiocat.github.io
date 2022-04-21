@@ -22,9 +22,10 @@ import ProjectCard from './ProjectCard.vue'
             <ProjectCard mark="" title="Pixasso" desc="Reddit place like website written in one day" repo="pixasso" prog="Go" />
             <ProjectCard mark="" title="Webcord" desc="Chrome extension to use themes in discord web" repo="webcord" prog="JS" />
             <ProjectCard mark="" title="JDW" desc="Dynamic windows library for vanilla-js" repo="jdw" prog="JS" />
+            <ProjectCard mark="gold" title="Request" desc="Minimal HTTP client with Vue3 front-end" repo="request" prog="Rust" />
             <ProjectCard mark="" title="Axis" desc="CLI tool for find text from files" repo="axis" prog="Rust" />
             <ProjectCard mark="" title="Solute" desc="Github-like avatar creator library" repo="solute" prog="Rust" />
-            <ProjectCard mark="gold" title="Request" desc="Minimal HTTP client with web interface" repo="request" prog="TS" />
+            <ProjectCard mark="" title="Totify" desc="Lightweight notification creator for browser" repo="totift" prog="TS" />
         </div>
     </div>
 </template>
