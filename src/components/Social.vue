@@ -47,7 +47,7 @@
 }
 
 h1 {
-    color: #fff;
+    color: #cdd6f4;
     font-size: 48px;
     font-weight: 800;
 }
@@ -60,55 +60,32 @@ span {
 }
 
 .account {
-    background: #0a0a0a;
-    border: 4px solid #111;
+    background: #1e1e2e;
     margin: 10px;
     border-radius: 10px;
-    padding: 0px 5px 0px 5px;
-    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    padding: 5px;
 
     display: flex;
     align-items: center;
+    transition: 250ms;
 }
 
 .account img {
     width: 32px;
     height: 32px;
     margin: 5px;
-    filter: invert(99%) sepia(3%) saturate(150%) hue-rotate(244deg) brightness(116%) contrast(100%);
+    filter: invert(84%) sepia(5%) saturate(914%) hue-rotate(317deg) brightness(111%) contrast(92%);
 }
 
 .account a {
-    color: #fff;
+    color: #cdd6f4;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
     margin: 5px;
 }
 
-.deviantart:hover > img, .deviantart:hover > a { 
-    filter: invert(50%) sepia(99%) saturate(903%) hue-rotate(96deg) brightness(98%) contrast(96%);
-}
-
-.discord:hover > img, .discord:hover > a { 
-    filter: invert(42%) sepia(89%) saturate(5009%) hue-rotate(228deg) brightness(107%) contrast(90%);
-}
-
-.osu:hover > img, .osu:hover > a { 
-    filter: invert(57%) sepia(46%) saturate(1719%) hue-rotate(298deg) brightness(101%) contrast(101%);
-}
-
-.twitter:hover > img, .twitter:hover > a { 
-    filter: invert(57%) sepia(28%) saturate(7158%) hue-rotate(178deg) brightness(102%) contrast(90%);
-}
-
-.github:hover > img, .github:hover > a { 
-    filter: none;
-    color: #181717;
-}
-
-.github:hover {
-    background: #fff;
-    border-color: #ddd;
+.account:hover {
+    background: #181825;
 }
 </style>

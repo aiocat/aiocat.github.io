@@ -14,7 +14,7 @@
 <style scoped>
 div {
     width: 100%;
-    background-color: #0a0a0a;
+    background-color: #f5e0dc;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -23,11 +23,10 @@ div {
 
     margin: 0px auto;
     margin-top: 50px;
-    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
 }
 
 p {
-    color: #ddd;
+    color: #181825;
     font-size: 18px;
     font-weight: 700;
     margin: 0px 10px 0px 10px;

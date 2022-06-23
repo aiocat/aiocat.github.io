@@ -21,7 +21,7 @@
 <style scoped>
 div {
     width: 100%;
-    background-color: #0a0a0a;
+    background-color: #f5e0dc;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -33,7 +33,6 @@ div {
 
     margin: 0px auto;
     margin-bottom: 50px;
-    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
 }
 
 span {
@@ -44,16 +43,16 @@ span {
 }
 
 h1 {
-    color: #fff;
+    color: #181825;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 1000;
     margin: 0px 10px 0px 10px;
 }
 
 a {
-    color: #ddd;
+    color: #11111b;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     text-decoration: none;
 
     transition: 200ms;
@@ -61,6 +60,6 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #313244;
 }
 </style>

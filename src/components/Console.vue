@@ -47,10 +47,10 @@ function executeShell(): void {
             window.location.href = "https://github.com/aiocat";
             break;
         case "help":
-            stdout.value = "Real programmers must check Console.vue to see commands.";
+            stdout.value = "dear 73.245.74.36, please check the Console.vue file in the source code.";
             break;
         case "whoami":
-            stdout.value = "i don't know you (yet)";
+            stdout.value = "dear 73.245.74.36, i don't know you (yet)";
             break;
     }
 
@@ -78,7 +78,7 @@ function executeShell(): void {
 }
 
 h1 {
-    color: #fff;
+    color: #cdd6f4;
     font-size: 48px;
     font-weight: 800;
 }
@@ -88,12 +88,10 @@ h1 {
     height: 50vh;
     margin: 0 auto;
 
-    background: #000;
-    color: #fff;
-    border: 4px solid #111;
+    background: #1e1e2e;
+    color: #f5e0dc;
     border-radius: 10px;
 
-    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
     padding: 10px;
 
     font-family: 'Roboto Mono', monospace;
@@ -104,7 +102,7 @@ h1 {
 }
 
 #stdout {
-    color: #eee;
+    color: #f5e0dc;
     font-size: 14px;
     font-weight: 500;
     padding: 10px;
@@ -119,13 +117,19 @@ h1 {
     outline: none;
 
     background: transparent;
-    color: #eee;
+    color: #f5e0dc;
 
     padding: 0px;
     margin: 0px;
     font-weight: 500;
     font-size: 18px;
 }
+
+::placeholder {
+  color: #45475a;
+  opacity: 1;
+}
+
 
 @media only screen and (max-width: 800px) {
     #shell {

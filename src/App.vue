@@ -31,7 +31,7 @@ body,
 #app {
   margin: 0 auto;
   font-family: "Nunito", sans-serif;
-  background-color: #030303;
+  background-color: #11111b;
   padding: 5px;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -48,13 +48,11 @@ body,
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #111;
-  border-radius: 100px;
+  background: #f5e0dc;
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-  border-radius: 100px;
 }
 
 ::-webkit-scrollbar-track:hover {

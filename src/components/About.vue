@@ -11,12 +11,12 @@
             <h1>Aiocat</h1>
             <h2>(0x707)</h2>
             <p>I'm a software engineer with over 3+ years of experience from Turkey. I don't have a tech stack, I 🤗 all
-                of them <span>except php</span>. I mostly code to solve my problems.</p>
+                of them <span>except php</span>. Also i play Apeirophobia <span>roblox</span> so much.</p>
             <a href="mailto:aiocat@protonmail.com">Contact</a>
         </span>
         <span class="photo">
-            <img src="/pfp.png" alt="pfp">
-            <p>(I love GitHub's default avatar)</p>
+            <img src="/pfp.jpg" alt="pfp">
+            <p>(nuclear bomb ☠️)</p>
         </span>
     </div>
 </template>
@@ -40,21 +40,21 @@ div {
 }
 
 .profile h1 {
-    color: #fff;
+    color: #cdd6f4;
     font-size: 36px;
     font-weight: 800;
     margin: 0px;
 }
 
 .profile h2 {
-    color: #bbb;
+    color: #bac2de;
     font-size: 16px;
     font-weight: 600;
     margin: 0px;
 }
 
 .profile p {
-    color: #ddd;
+    color: #a6adc8;
     font-size: 24px;
     font-weight: 700;
 
@@ -63,9 +63,8 @@ div {
 }
 
 .profile p span {
-    color: rgb(255, 70, 70);
+    color: #eba0ac;
     font-size: 14px;
-    font-weight: 600;
 }
 
 .photo img {
@@ -74,24 +73,24 @@ div {
     image-rendering: pixelated;
     border-radius: 10px;
     margin: 0 auto;
-    box-shadow: rgba(255, 255, 255, 0.432) 0px 3px 8px;
+    border: 4px solid #f5e0dc;
 }
 
 .photo p {
     display: block;
 
-    color: #bbb;
+    color: #bac2de;
     font-size: 14px;
     font-weight: 600;
     text-align: center;
 }
 
 .profile a {
-    background-color: #111;
+    background-color: #cdd6f4;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
 
-    color: #fff;
+    color: #11111b;
     font-size: 18px;
     font-weight: 600;
     
@@ -105,7 +104,7 @@ div {
 }
 
 .profile a:hover {
-    background-color: #222;
+    background-color: #bac2de;
 }
 
 @media only screen and (max-width: 800px) {
