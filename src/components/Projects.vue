@@ -26,6 +26,12 @@ import ProjectCard from "./ProjectCard.vue";
         prog="C"
       />
       <ProjectCard
+        title="CKrnl"
+        desc="Krnl API re-written in C99"
+        repo="ckrnl"
+        prog="C"
+      />
+      <ProjectCard
         title="Str"
         desc="Fast and flexible C library for string manupilation"
         repo="str"
@@ -42,6 +48,12 @@ import ProjectCard from "./ProjectCard.vue";
         desc="Anarchic pixel art website"
         repo="pixasso"
         prog="Go"
+      />
+      <ProjectCard
+        title="Gernel"
+        desc="Web-based Krnl UI that works on your favorite browser"
+        repo="gernel"
+        prog="JS"
       />
       <ProjectCard
         title="Webcord"
