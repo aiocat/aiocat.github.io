@@ -11,7 +11,7 @@
             <h1>Aiocat</h1>
             <h2>(0x707)</h2>
             <p>I'm a software engineer with over 3+ years of experience from Turkey. I don't have a tech stack, I 🤗 all
-                of them <span>except php</span>. Also i play Apeirophobia <span>roblox</span> so much.</p>
+                of them <span>except php</span>.</p>
             <a href="mailto:aiocat@protonmail.com">Contact</a>
         </span>
         <span class="photo">
